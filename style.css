@@ -39,13 +39,17 @@ body{
    
 }
 
-section{
+section, aside{
     padding: 40px 0;
 }
 
 header{
     border: 1px solid black;
     box-shadow: 0 0 5px 0 black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
 }
 
 
@@ -69,19 +73,19 @@ header{
 }
 
 .cmn-container a i{
-     color: rgb(255, 64, 0);
+     color: rgb(4, 4, 4);
      font-size: 20px;
      transition: transform 0.0009s;
 
 }
 
 .cmn-container a i:hover{
-     color: rgb(255, 255, 255);
+    color: rgb(255, 64, 0);
      transform: scale(1.2);
 }
 
+/* *******************sidebar ++++++++++++++++++++++ */
 
-/* *******************section nav++++++++++++++++++++++ */
 
 main{
     display: flex;
@@ -92,11 +96,15 @@ main{
     height:70em;
     background-color: rgb(16, 16, 16);
     color: rgb(0, 0, 0);
-    padding:25px 20px ;
+    padding:15px 10px 50px 10px ;
+    position: fixed;
+    left: 0;
 }
 
+
+
 nav ul li a i{
-    color: rgb(11, 11, 11);
+    color: rgb(253, 253, 253);
 }
 
 #container li:hover i{
@@ -105,20 +113,19 @@ nav ul li a i{
 
 #container li {
     display: flex;
-    background-color:rgb(255, 255, 255);
-    border-radius: 30px;
     padding: 10px 20px;
-    margin-bottom: 20px;
-    transition: transform 0.0009s;
+    margin-bottom: 5px;
+    /* transition: transform 0.0009s; */
 }
 #container li a{
     /* padding: 10px 20px; */
     display: flex;
     align-items: center;
     gap: 10px;
-    color:black;
+    color:rgb(255, 255, 255);
     width: 100%;
     margin-left: 10px;
+    font-size: 12px;
     
 }
 
@@ -129,7 +136,7 @@ nav ul li a i{
 
 #container li  {
     /* padding: 10px 20px; */
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #container li:hover .text  {
@@ -149,13 +156,24 @@ nav ul li a i{
    
 }
 
+
+/* +++++++++++++++++++++Form++++++++++++++++++++++++ */
+
+
+/* .cmn-container{
+    width: 100%;
+     margin-top: 20px; padding: 0;
+     flex-direction: column;
+} */
+
 .cmn-container form{
     /* border: 0.5px solid black; */
     width: 1000px;
     height: auto;
     padding: 20px;
-    margin: 20px 0;
+    /* margin: 20px 50% 20px 0; */
     box-shadow: 0 0 5px 0 black;
+    
 }
 
 
@@ -168,11 +186,14 @@ form .inputBox{
 
 label{
     font-weight: bold;
+    font-size: 12px;
 }
 
 
+
+/* +++++++++++++++++++Footer++++++++++++++++++++++++++++ */
 footer a{
-    color: wheat;
+    color: rgb(61, 12, 107);
     transition: transform 0.0009s;
 }
 
