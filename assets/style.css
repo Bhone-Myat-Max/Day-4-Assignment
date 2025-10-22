@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.btn{
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0 black;
+    margin-right: 15px;
+    transition: transform 0.0009s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: white;
+    color: black;
+   
+}
+
+section, aside{
+    padding: 40px 0;
+}
+
+header{
+    border: 1px solid black;
+    box-shadow: 0 0 5px 0 black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+
+
+
+
+.cmn-container{
+    /* width: 1300px; */
+    padding: 0 20px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cmn-container a{
+    margin-top: 15px;
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+
+.cmn-container a i{
+     color: rgb(4, 4, 4);
+     font-size: 20px;
+     transition: transform 0.0009s;
+
+}
+
+.cmn-container a i:hover{
+    color: rgb(255, 64, 0);
+     transform: scale(1.2);
+}
+
+/* *******************sidebar ++++++++++++++++++++++ */
+
+
+main{
+    display: flex;
+}
+
+#container{
+    width: 20%;
+    height:70em;
+    background-color: rgb(16, 16, 16);
+    color: rgb(0, 0, 0);
+    padding:15px 10px 50px 10px ;
+    position: fixed;
+    left: 0;
+}
+
+
+
+nav ul li a i{
+    color: rgb(253, 253, 253);
+}
+
+#container li:hover i{
+    color: rgb(255, 64, 0);
+}
+
+#container li {
+    display: flex;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    /* transition: transform 0.0009s; */
+}
+#container li a{
+    /* padding: 10px 20px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:rgb(255, 255, 255);
+    width: 100%;
+    margin-left: 10px;
+    font-size: 12px;
+    
+}
+
+#container li a:hover{
+    /* padding: 10px 20px; */  
+    color:  rgb(255, 64, 0);
+}
+
+#container li  {
+    /* padding: 10px 20px; */
+    color: rgb(255, 255, 255);
+}
+
+#container li:hover .text  {
+    
+   color:rgb(255, 64, 0);
+}
+
+
+#container li:hover{
+    background-color: rgb(254, 254, 254);
+   
+    transform: scale(1.2);
+}
+
+#container li:active{
+    background-color: rgb(254, 64, 1);
+   
+}
+
+
+/* +++++++++++++++++++++Form++++++++++++++++++++++++ */
+
+
+/* .cmn-container{
+        width: 100%;
+     margin-top: 20px; padding: 0;
+     flex-direction: column;
+} */
+
+.cmn-container form{
+    /* border: 0.5px solid black; */
+    width: 1000px;
+    height: auto;
+    padding: 20px;
+    /* margin: 20px 50% 20px 0; */
+   
+    
+}
+
+.form_box{
+    border: 1px solid black;
+    box-shadow: 0 0 5px 0 black;
+    margin: 20px;
+
+}
+
+
+
+form .inputBox{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.774);
+}
+
+label{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+/* +++++++++++++++++++Footer++++++++++++++++++++++++++++ */
+footer a{
+    color: rgb(61, 12, 107);
+    transition: transform 0.0009s;
+}
+
+footer a:hover{
+   transform: scale(1.2);
+}
+
+footer{
+    padding: 10px 20px;
+}
