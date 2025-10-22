@@ -161,7 +161,7 @@ nav ul li a i{
 
 
 /* .cmn-container{
-    width: 100%;
+        width: 100%;
      margin-top: 20px; padding: 0;
      flex-direction: column;
 } */
@@ -172,8 +172,15 @@ nav ul li a i{
     height: auto;
     padding: 20px;
     /* margin: 20px 50% 20px 0; */
-    box-shadow: 0 0 5px 0 black;
+   
     
+}
+
+.form_box{
+    border: 1px solid black;
+    box-shadow: 0 0 5px 0 black;
+    margin: 20px;
+
 }
 
 
