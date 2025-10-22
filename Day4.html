@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
+    <!-- Navigation Bar for Admin dashboard -->
     <header>
-        <nav class="cmn-container" style="    background-color: rgb(16, 16, 16);
-" >
+        <nav class="cmn-container">
             <h1 style=" color: rgb(255, 64, 0);">Dashboard</h1>
             <ul>
                 <a href=""><i class="fa-solid fa-envelope"></i></a>
@@ -19,8 +19,9 @@
             </ul>
         </nav>
     </header>
+
     <main>
-        <section id="container" >
+        <aside id="container" >
             <nav>
                 <ul>
 
@@ -31,23 +32,39 @@
                     <li><a class="text" href=""><i class="fa-solid fa-circle-check"></i>Logs</a></li>
                 </ul>
             </nav>
-        </section>
-        <section  id="helo" class="cmn-container" style="width: 100%; margin-top: 20px; padding: 0; flex-direction: column; ">
-            <div>
+
+    <!-- Side Bar for Admin dashboard -->
+
+            <nav style="padding-top: 20px;">
+                <ul>
+
+                    <li><a class="text" href=""><i class="fa-solid fa-chart-simple"></i>Layout </a></li>
+                    <li><a class="text" href=""><i class="fa-solid fa-table"></i></i>Report Table</a></li>
+                    <li><a class="text" href=""><i class="fa-solid fa-arrow-trend-up"></i></i>Chart</a></li>
+                    <li><a class="text" href=""><i class="fa-solid fa-newspaper"></i>Form</a></li>
+                    <li><a class="text" href=""><i class="fa-solid fa-circle-check"></i>Logs</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+    <!-- Form for Admin dashboard -->
+
+        <section  id="helo"  style="width: 100%; margin: 20px 0 0 20%; padding: 0; flex-direction: column; ">
+            <div class="form_box">
                 <h1 style="margin: 20px;">Registeration Form</h1>
 
                     <form action="" style="margin: 20px;">
                         <label for="">Name</label><br>
-                        <input type="text" name="" id="" placeholder="" class="inputBox"  required ><br><br>    
+                        <input type="text" name="" id="" placeholder="Enter Your name" class="inputBox"   required ><br><br>    
 
                         <label for="">Email</label><br>
-                        <input type="text" name="" id="" placeholder="" class="inputBox"  required ><br><br>
+                        <input type="text" name="" id="" placeholder="Enter your email" class="inputBox"  required ><br><br>
 
                         <label for="">Date of Birth</label><br>
                         <input type="date" name="" id="" placeholder="mm/dd/yyyy" class="inputBox"  required ><br><br>
 
                         <label for="">Phone Number</label><br>
-                        <input type="text" name="" id="" placeholder="" class="inputBox"  required ><br><br>
+                        <input type="text" name="" id="" placeholder="Phone Number" class="inputBox"  required ><br><br>
 
                         <label for="">Gender</label><br>
                         <input type="radio" name="" id="" value="Male"  required >
@@ -76,11 +93,14 @@
                     
             </div>
 
-            <footer style="display: flex; justify-content: space-between; background-color: black;">
-                        <a href=""> ©opyright 2025</a>
-                        <div>
+
+    <!-- Footer for Admin dashboard -->
+
+            <footer style="display: flex; justify-content: space-between; background-color: rgb(224, 221, 221);">
+                        <a href="" style="color: black;"> ©opyright 2025</a>
+                        <div >
                             <a href="">Privicy Policy</a>
-                            <a href="">Terms & Conditions   </a>
+                            <a href="">Terms & Conditions  </a>
                         </div>
             </footer>
                     
